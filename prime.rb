@@ -1,8 +1,6 @@
-require_relative 'pry'
 # Add  code here!
 def prime?(int)
   isPrime = false
-  binding.pry
   if int <= 1
     isPrime = false
   #elsif int == 2 || 3
