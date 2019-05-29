@@ -6,7 +6,7 @@ def prime?(int)
   #elsif int == 2 || 3
   #  isPrime = true
   else
-    range = 2..int
+    range = 2...int
     isPrime = true
 
     for prime_test in range do
