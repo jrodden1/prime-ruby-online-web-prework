@@ -8,11 +8,11 @@ def prime?(int)
     isPrime = true
   else
     range = 2..int
-
+        binding.pry
     for prime_test in range do
       check1 = int % prime_test
       if check1 < 1
-        binding.pry
+
         puts "The number is not prime."
         isPrime = false
       end
