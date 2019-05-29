@@ -1,4 +1,4 @@
-require 'pry'
+require_relative 'pry'
 # Add  code here!
 def prime?(int)
   isPrime = false
