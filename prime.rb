@@ -5,16 +5,15 @@ def prime?(int)
   binding.pry
   if int <= 1
     isPrime = false
-  elsif int == 2 || 3
-    isPrime = true
-    binding.pry
+  #elsif int == 2 || 3
+  #  isPrime = true
   else
     range = 2..int
+    isPrime = true
 
     for prime_test in range do
       check1 = int % prime_test
-      if check1 < 1
-
+      if check1 == 0 && int != 2
         puts "The number is not prime."
         isPrime = false
       end
