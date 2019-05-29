@@ -7,6 +7,7 @@ def prime?(int)
     isPrime = false
   elsif int == 2 || 3
     isPrime = true
+    binding.pry
   else
     range = 2..int
 
