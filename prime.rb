@@ -11,7 +11,7 @@ def prime?(int)
 
     for prime_test in range do
       check1 = int % prime_test
-      if check1 == 0 && int != 2 && != 3
+      if check1 == 0 && int != 2 && int != 3
         puts "The number is not prime."
         isPrime = false
       end
